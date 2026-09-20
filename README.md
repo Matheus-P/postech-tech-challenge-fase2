@@ -2,7 +2,6 @@
 
 > **INSTRUÇÕES:** este README é um template. Substitua **todos** os blocos marcados com
 > `<!-- PREENCHER -->` e apague as linhas de instrução antes de submeter.
-> O README vale **3 pontos** na Dimensão 1 da rúbrica.
 
 ---
 
@@ -36,7 +35,7 @@ Estes três links são **obrigatórios** e devem ser idênticos aos do PDF de su
 | Vídeo executivo (≤ 5 min) | <!-- PREENCHER: YouTube não listado / Drive com acesso liberado --> |
 | Apresentação | <!-- PREENCHER: link do arquivo em `docs/` ou Drive --> |
 
-> ⚠️ Repositório privado ou inacessível **zera** toda a Dimensão 1 da rúbrica.
+> ⚠️ Repositório privado ou inacessível inviabiliza a avaliação da entrega.
 > Confira o acesso em uma janela anônima antes de enviar.
 
 ---

@@ -21,7 +21,7 @@ estiver fora do formato `RM000000` ou se algum link não começar com `https://`
 
 | Link | Requisito |
 |---|---|
-| Repositório | público. Repositório privado zera a Dimensão 1 inteira |
+| Repositório | público. Repositório privado inviabiliza a avaliação da entrega |
 | Vídeo | máximo 5 minutos, com ao menos um integrante narrando ou aparecendo. YouTube "não listado" ou Drive com acesso para qualquer pessoa com o link |
 | Apresentação | PDF. Pode apontar para o arquivo em `docs/` do próprio repositório |
 

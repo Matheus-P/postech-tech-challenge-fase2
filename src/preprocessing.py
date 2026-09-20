@@ -1,7 +1,7 @@
 """Limpeza, escala e feature engineering.
 
 Se você decidir NÃO criar features novas, documente a decisão e o porquê —
-a justificativa da não-aplicação vale tanto quanto a aplicação.
+a justificativa da não-aplicação é tão importante quanto a aplicação.
 """
 
 import pandas as pd

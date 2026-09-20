@@ -1,6 +1,6 @@
 # docs/
 
-Coloque aqui a **apresentação executiva** (Dimensão 7 da rúbrica, 5 pts).
+Coloque aqui a **apresentação executiva**.
 
 - Nome do arquivo: `apresentacao_executiva.pdf`
 - Exporte em **PDF** mesmo que tenha construído em PowerPoint ou Google Slides —

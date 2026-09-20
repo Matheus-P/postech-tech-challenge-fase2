@@ -1,6 +1,6 @@
 """Definição e treino dos modelos.
 
-A rúbrica exige no mínimo DOIS classificadores distintos.
+Use no mínimo DOIS classificadores distintos.
 """
 
 from sklearn.ensemble import RandomForestClassifier

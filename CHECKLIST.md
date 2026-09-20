@@ -1,14 +1,14 @@
 # Checklist de entrega — Tech Challenge Fase 2
 
-Rode esta lista antes de submeter. Cada item corresponde a pontos na rúbrica.
+Rode esta lista antes de submeter.
 
-## Acesso (elimina a causa nº 1 de perda de nota)
+## Acesso (causa nº 1 de problema na entrega)
 
 - [ ] Repositório **público** — confirmado em janela anônima
 - [ ] Vídeo abre sem pedir permissão — confirmado em janela anônima
 - [ ] Apresentação abre e está em PDF
 
-## Repositório (10 pts)
+## Repositório
 
 - [ ] Pastas `data/`, `notebooks/` e `docs/` presentes
 - [ ] `README.md` sem nenhum `<!-- PREENCHER -->` restante
@@ -21,22 +21,22 @@ Rode esta lista antes de submeter. Cada item corresponde a pontos na rúbrica.
 
 ## Conteúdo
 
-- [ ] Contexto de negócio e motivação para ML (Dim. 2)
-- [ ] Variável alvo definida, com limiar justificado (Dim. 2)
-- [ ] Fonte, dimensões e dicionário de variáveis do dataset (Dim. 2)
-- [ ] Distribuições, correlações, outliers e balanceamento — todos com texto interpretativo (Dim. 3)
-- [ ] Nulos verificados e documentados (Dim. 4)
-- [ ] Normalização aplicada com justificativa (Dim. 4)
-- [ ] Feature engineering feita **ou** a não-aplicação justificada (Dim. 4)
-- [ ] Pelo menos **dois** modelos distintos treinados (Dim. 5)
-- [ ] Split ou cross-validation documentado, sem vazamento (Dim. 5)
-- [ ] `RANDOM_STATE` fixo em todos os pontos aleatórios (Dim. 5)
-- [ ] Métricas além de acurácia: F1, AUC-ROC, precisão, recall (Dim. 6)
-- [ ] Escolha das métricas justificada pelo contexto (Dim. 6)
-- [ ] Feature importance analisada e comentada (Dim. 6)
-- [ ] Implicações práticas discutidas em linguagem de negócio (Dim. 6)
+- [ ] Contexto de negócio e motivação para ML
+- [ ] Variável alvo definida, com limiar justificado
+- [ ] Fonte, dimensões e dicionário de variáveis do dataset
+- [ ] Distribuições, correlações, outliers e balanceamento — todos com texto interpretativo
+- [ ] Nulos verificados e documentados
+- [ ] Normalização aplicada com justificativa
+- [ ] Feature engineering feita **ou** a não-aplicação justificada
+- [ ] Pelo menos **dois** modelos distintos treinados
+- [ ] Split ou cross-validation documentado, sem vazamento
+- [ ] `RANDOM_STATE` fixo em todos os pontos aleatórios
+- [ ] Métricas além de acurácia: F1, AUC-ROC, precisão, recall
+- [ ] Escolha das métricas justificada pelo contexto
+- [ ] Feature importance analisada e comentada
+- [ ] Implicações práticas discutidas em linguagem de negócio
 
-## Apresentação e vídeo (10 pts)
+## Apresentação e vídeo
 
 - [ ] Apresentação em `docs/apresentacao_executiva.pdf`
 - [ ] Storytelling conecta os insights — não é uma sequência de gráficos
