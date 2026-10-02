@@ -12,6 +12,8 @@ Documente abaixo como obter os dados brutos, para que qualquer pessoa consiga re
 
 ## Como obter
 
-1. Baixe em: <!-- PREENCHER: URL -->
-2. Salve como: `data/raw/<!-- PREENCHER: nome do arquivo -->`
-3. Checksum (opcional, recomendado): `shasum -a 256 data/raw/<arquivo>`
+1. Baixe em: https://drive.google.com/file/d/1z4yEyiCE_CGCWbvAAZQZSz-5-E5T5eYd/view?usp=sharing
+2. Salve como: `data/raw/application_record.csv`; `data/raw/credit_record.csv`
+3. Checksum: 
+`shasum -a 256 data/raw/application_record.csv  4833f502d02ad94295de3ffe74f665e726a4b04342d2e94f8cec41dce951925b`
+`shasum -a 256 data/raw/credit_record.csv   ba0006a4734f74422d68b0a7132ad591850be0a6affb535eb1042d207fe4b27e`

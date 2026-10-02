@@ -9,8 +9,8 @@
 
 | Campo | Valor |
 |---|---|
-| Turma | <!-- PREENCHER: ex. 12DTAT --> |
-| Grupo | <!-- PREENCHER: ex. Grupo 07 --> |
+| Turma | 2DTATBB |
+| Grupo | Grupo 30 |
 | Data de entrega | <!-- PREENCHER: DD/MM/AAAA --> |
 
 ### Integrantes
@@ -69,8 +69,8 @@ Descrição das variáveis:
 ## 4. Como reproduzir
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_REPOSITORIO>
+git clone https://github.com/Matheus-P/postech-tech-challenge-fase2.git
+cd postech-tech-challenge-fase2
 
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
