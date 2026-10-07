@@ -1,0 +1,3 @@
+,roc_auc,pr_auc,mcc,f1,recall,precision,accuracy
+"Corte 0,50",0.7116,0.0886,0.0884,0.0614,0.6702,0.0322,0.6588
+Corte 0.84 (definido no treino),0.7116,0.0886,0.1637,0.1754,0.1596,0.1948,0.975
