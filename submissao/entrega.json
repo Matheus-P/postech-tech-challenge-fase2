@@ -1,13 +1,12 @@
 {
-  "turma": "12DTAT",
-  "grupo": "Grupo 00",
+  "turma": "2DTATBB",
+  "grupo": "Grupo 30",
   "integrantes": [
-    { "nome": "Nome Completo do Integrante", "rm": "RM000000" },
-    { "nome": "Nome Completo do Integrante", "rm": "RM000000" }
+    { "nome": "Matheus Prado", "rm": "RM377776" }
   ],
   "links": {
-    "repositorio": "https://github.com/usuario/nome-do-repositorio",
+    "repositorio": "https://github.com/Matheus-P/postech-tech-challenge-fase2",
     "video": "https://www.youtube.com/watch?v=xxxxxxxxxxx",
-    "apresentacao": "https://github.com/usuario/nome-do-repositorio/blob/main/docs/apresentacao_executiva.pdf"
+    "apresentacao": "https://github.com/Matheus-P/postech-tech-challenge-fase2/blob/main/docs/apresentacao_executiva.pdf"
   }
 }

@@ -1,8 +1,9 @@
 # docs/
 
-Coloque aqui a **apresentação executiva**.
+| Arquivo | Conteúdo |
+|---|---|
+| `apresentacao_executiva.pdf` | apresentação executiva (8 slides, 16:9), público-alvo: diretoria |
+| `gerar_apresentacao.py` | gera o PDF a partir de `results/metrics/`; rode depois dos notebooks |
 
-- Nome do arquivo: `apresentacao_executiva.pdf`
-- Exporte em **PDF** mesmo que tenha construído em PowerPoint ou Google Slides —
-  garante que o avaliador veja exatamente o que você desenhou.
-- Público-alvo: diretoria. Storytelling coeso, sem jargão técnico.
+Os números dos slides são lidos dos arquivos gravados pelos notebooks. Se os notebooks
+forem reexecutados, rode `python docs/gerar_apresentacao.py` para atualizar o PDF.
