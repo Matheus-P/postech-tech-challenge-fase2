@@ -1,0 +1,3 @@
+,ROC-AUC médio,desvio
+Folds aleatórios (mesma pessoa em treino e validação),0.781,0.0165
+Folds agrupados por proponente,0.7413,0.0271

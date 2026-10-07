@@ -1,0 +1,3 @@
+,ROC-AUC antes,ROC-AUC depois,desvio entre folds,melhores parâmetros
+Regressão Logística,0.7406,0.7489312647006545,0.03130122969801303,{'C': 0.0003}
+Random Forest,0.7413,0.747153569996632,0.02351199896711728,"{'n_estimators': 300, 'min_samples_leaf': 40, 'max_features': 'sqrt', 'max_depth': 4}"

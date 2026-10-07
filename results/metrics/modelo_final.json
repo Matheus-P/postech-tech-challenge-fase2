@@ -1,0 +1,8 @@
+{
+  "modelo": "Regressão Logística",
+  "parametros": {
+    "C": 0.0003
+  },
+  "roc_auc_cv": 0.7489,
+  "limiar": 0.84
+}
