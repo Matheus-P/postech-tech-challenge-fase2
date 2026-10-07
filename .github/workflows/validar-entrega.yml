@@ -14,7 +14,12 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.11.17"
+
+      - name: Ambiente reproduzível
+        run: |
+          pip install --quiet -r requirements-lock.txt
+          python -c "import sklearn, pandas, numpy; print(sklearn.__version__, pandas.__version__, numpy.__version__)"
 
       - name: Pastas obrigatórias
         run: |
@@ -45,7 +50,6 @@ jobs:
 
       - name: Notebooks executáveis de cima para baixo
         run: |
-          pip install --quiet nbformat
           python - <<'PY'
           import pathlib, sys
           import nbformat
@@ -62,5 +66,4 @@ jobs:
 
       - name: PDF de submissão válido
         run: |
-          pip install --quiet reportlab
           python submissao/gerar_submissao.py
