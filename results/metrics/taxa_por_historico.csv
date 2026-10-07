@@ -1,0 +1,9 @@
+,,contas,taxa_maus
+Já era cliente?,Primeira conta,9650,0.0227
+Já era cliente?,Já tinha conta,17988,0.0097
+Atraso de 60+ dias em conta anterior?,Não,27258,0.012
+Atraso de 60+ dias em conta anterior?,Sim,380,0.1763
+Pior situação em contas anteriores (quem já era cliente),Sempre em dia,1216,0.0082
+Pior situação em contas anteriores (quem já era cliente),Até 29 dias,13828,0.0053
+Pior situação em contas anteriores (quem já era cliente),30-59 dias,2564,0.0098
+Pior situação em contas anteriores (quem já era cliente),60+ dias,380,0.1763

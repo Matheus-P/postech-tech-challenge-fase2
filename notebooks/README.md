@@ -18,5 +18,5 @@ Ordem numerada obrigatória. Cada notebook deve rodar de cima para baixo em ambi
   resultados sem executar nada.
 - Todo gráfico precisa de um parágrafo de interpretação em markdown logo abaixo.
   Gráfico solto, sem leitura, não comunica nada.
-- A primeira célula de cada notebook define `RANDOM_STATE = 42` e os caminhos.
-  Não mude o valor entre notebooks.
+- A primeira célula de cada notebook importa `RANDOM_STATE` (= 42) e os caminhos de
+  `src/config.py`. O valor é definido em um único lugar e não muda entre notebooks.
