@@ -26,7 +26,7 @@ cartão atrasar 60 dias ou mais nos primeiros 12 meses?
 | Item | Link |
 |---|---|
 | Repositório | https://github.com/Matheus-P/postech-tech-challenge-fase2 |
-| Vídeo executivo (≤ 5 min) | <!-- PREENCHER: link do vídeo --> |
+| Vídeo executivo (≤ 5 min) | https://drive.google.com/file/d/1NHALEIdGL6Kez6QtB6AquKxHDx1qIr8I/view?usp=sharing |
 | Apresentação | [`docs/apresentacao_executiva.pdf`](docs/apresentacao_executiva.pdf) |
 
 ---

@@ -2,11 +2,14 @@
   "turma": "2DTATBB",
   "grupo": "Grupo 30",
   "integrantes": [
-    { "nome": "Matheus Prado", "rm": "RM377776" }
+    {
+      "nome": "Matheus Prado",
+      "rm": "RM377776"
+    }
   ],
   "links": {
     "repositorio": "https://github.com/Matheus-P/postech-tech-challenge-fase2",
-    "video": "https://www.youtube.com/watch?v=xxxxxxxxxxx",
+    "video": "https://drive.google.com/file/d/1NHALEIdGL6Kez6QtB6AquKxHDx1qIr8I/view?usp=sharing",
     "apresentacao": "https://github.com/Matheus-P/postech-tech-challenge-fase2/blob/main/docs/apresentacao_executiva.pdf"
   }
 }
