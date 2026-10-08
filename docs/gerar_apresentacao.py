@@ -20,6 +20,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
+from matplotlib import font_manager
 from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.patches import FancyBboxPatch
 
@@ -176,14 +177,16 @@ def slide_achados(d, n):
          f"entra no treino e no teste, o modelo parece melhor do que é: a nota caía de {br(d['auc_aleatorio'], 2)} "
          f"para {br(d['auc_agrupado'], 2)} quando separamos as pessoas. Todo resultado aqui usa essa separação."),
         (6.9, "Contas antigas pareciam piores",
-         f"{pct(e['pct_atrasos_ate_12_meses'], 0)} dos atrasos em até 12 meses",
+         f"{pct(e['pct_atrasos_ate_12_meses'], 0)} dos atrasos graves\nem até 12 meses",
          "Quanto mais tempo uma conta é observada, mais chance de registrar um atraso. Para comparar todas na mesma "
          f"régua, o alvo passou a ser: atraso de 60 dias ou mais nos primeiros {JANELA_MESES} meses de conta."),
     ]:
         cartao(ax, x, 1.35, 5.75, 4.2)
         ax.text(x + 0.4, 5.15, titulo, fontsize=17, fontweight="bold", color=TINTA, va="top")
-        ax.text(x + 0.4, 4.55, valor, fontsize=21, fontweight="bold", color=AZUL, va="top")
-        paragrafo(ax, x + 0.4, 3.8, texto, largura=46, tamanho=15)
+        linhas_valor = [l for parte in valor.split("\n") for l in textwrap.wrap(parte, 28)]
+        ax.text(x + 0.4, 4.55, "\n".join(linhas_valor), fontsize=21, fontweight="bold", color=AZUL, va="top",
+                linespacing=1.25)
+        paragrafo(ax, x + 0.4, 3.8 - 0.45 * (len(linhas_valor) - 1), texto, largura=43, tamanho=15)
     return fig
 
 
@@ -302,6 +305,9 @@ def slide_limites(d, n):
 
 def main() -> None:
     d = carregar()
+    # Registra as fontes que vêm com o matplotlib: o PDF não depende do cache de fontes da máquina.
+    for fonte in font_manager.findSystemFonts(str(Path(matplotlib.get_data_path()) / "fonts" / "ttf")):
+        font_manager.fontManager.addfont(fonte)
     plt.rcParams["font.family"] = "DejaVu Sans"
     slides = [slide_capa, slide_desafio, slide_achados, slide_ablacao, slide_sinal,
               slide_resultado, slide_politica, slide_limites]
